@@ -1,0 +1,323 @@
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.option{
+    border-top:1px solid #757575;
+}
+.picture{
+    width: 100%;
+    height: 400px;
+}
+.picture-img{
+    widows: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top:20px;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+}
+.b-l{
+    border-left: 1px solid #757575;
+    color: #757575;
+}
+small{
+    font-size: 10px;
+}
+.option-one{
+    width: 20%;
+    
+    line-height: 0.8rem;
+    float: left;
+}
+.main{
+    height: 120px;
+    margin:10px 0;
+    /* border-right: 1px solid #757575; */
+}
+.maina{
+    border: none;
+}
+.option-one{
+    position: relative;
+}
+.option-one:not(:last-child):before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 105px;
+    background: black;
+    right: 0;
+}
+@media only screen and (max-width: 600px) {
+  .option-one{
+    width: 100%;
+  }
+  p{
+      font-size: 20px;
+  }
+  small{
+      font-size: 15px;
+      color: #757575!important;
+  }
+  .main{
+      border: none;
+  }
+}
+@media only screen and (max-width: 1276px) {
+    p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1132px) {
+    p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1035px) {
+    p{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 996px) {
+    small{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 939px) {
+    p{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 843px) {
+    p{
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width: 804px) {
+    small{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 12px;
+    }
+    .padding-bottom{
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 695px) {
+    p{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 631px) {
+    p{
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .option-one{
+      width: 100%;
+    }
+    .option-one:not(:last-child):before{
+        display: none;
+    }
+    p{
+        font-size: 20px;
+        margin-bottom: 1rem;
+        
+    }
+    small{
+        font-size: 15px;
+        color: #757575!important;
+        line-height: 1.5rem;
+        
+    }
+    .main{
+        border: none;
+    }
+  }
+  .select-category{
+      width: 100%; 
+  }
+  .select-category-context{
+    width: 100%; 
+    height: 100px;
+  }
+  .s-cat{
+      width: 100%;
+      padding: 8px;
+      background-color: white;
+      border: 1px solid #9d67e5;
+  }
+  .inp-c{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #757575;
+  }
+  .inp-context{
+    width: 100%; 
+    height: 100%;
+    border: 1px solid #757575;
+    padding-bottom:40px;
+    padding-left: 10px;
+  }
+  .cost-row{
+      border: 1px solid #757575;
+      border-right: none;
+      padding: 30px 0;
+
+  }
+  .cost-row-two{
+    border: 1px solid #757575;
+    border-left: none;
+    padding: 30px 0;
+    
+  }
+  .costtt{
+      display: inline;
+      font-size: 25px;
+      margin-right: 40px;
+  }
+  .cost-button{
+      display: inline;
+
+  }
+  .cost-cost-button-last{
+      border: 1px solid #9d67e5;
+      background-color: blueviolet;
+      border-radius: 20px;
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .cost-cost-button-last:hover{
+      color: white;
+  }
+  .button-submit{
+    background-color: #9d67e5;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
+    
+
+    
+    .mySlides {display: none}
+      
+      
+    /* Slideshow container */
+    .s {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    .pr, .ne{
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    
+    .ne {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .pr:hover, .ne:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .t {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .nt {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    .cost-cost-button-last{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    /* Fading animation */
+    .f {
+      -webkit-animation-name: f;
+      -webkit-animation-duration: 1.5s;
+      animation-name: f;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes f {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes f {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .pr, .ne,.t
+       {font-size: 11px}
+    }
+    .wse{
+      margin-top: 30px;
+      width: 100%;
+      height: 500px;
+    }
+
+
